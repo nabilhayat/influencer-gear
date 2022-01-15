@@ -1,30 +1,54 @@
 
-
-
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
-    background-color: aqua;
+    /* justify-content: center;
+    align-content: center; */
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: whitesmoke;
     
-
     
+    
+    
+}
 
-
+.header-flex{
+    display: flex;
 }
 
 header{
-    width: 100%;
-    height: 5%;
+    
     background-color: azure;
+    width: 80%;
+    padding-left: 20%;
+     
+}
+
+.top-nav{
+    font-size: large;
+    float: right;
 }
 
 main>.div-1{
     
     display: flex;
+    padding-left: 20%;
+    
+    
+    padding-bottom: 20px;
+    
+    
 }
 main>.div-1 img{
-    width: 100%
+    padding-left: 60%;
+    
+}
+
+h1{
+    font-size: 30px;
+}
+.div-1-1>p{
+    padding-bottom: 20px;
 }
 .button-1{
     background-color: black;
@@ -35,17 +59,44 @@ main>.div-1 img{
     font-weight: 700;
     
 }
+.hr-tag{
+    width: 90%;
+}
 
-
-.popular-collection{
+.popular-collection>h2{
     text-align: center;
     font-weight: 700;
+    padding-bottom: 30px;
 }
 
 
+
+
 .popular-collection-grid{
+    width: 60%;
+    padding-left: 20%;
     display: grid;
+    justify-content: center;
+    justify-items: center;
+
+    
+  
+  
+  
+    
     grid-template-columns: repeat(3,1fr);
+
+    
+    grid-row-gap: 50px;
+
+    /* width: 1047px;
+    height:1662px; */
+
+    /* left: 196px;
+    top: 935px; */
+    padding-bottom: 40px;
+    
+    
     
 }
 
@@ -54,6 +105,21 @@ main>.div-1 img{
     height: 256px;
 }
 
+
+
+.dimension{
+    background-color: white;
+    /* width: 329px;
+    height: 476px; */
+    
+    /* border: 1px solid; */
+  padding: 10px;
+  box-shadow: 1px 1px 1px 1px #5E6366;
+}
+
+.dimension h3{
+    font-weight: lighter;
+}
 
 
 
@@ -70,21 +136,40 @@ main>.div-1 img{
 
 
 .div-before-footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
     display: flex;
+    justify-content: center;
+
+
 }
 
 .div-before-footer img{
-    width: 70%;
+    padding-right: 30px;
+    
+}
+
+.div-before-footer-2>h1{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+.div-before-footer-2>p{
+    
+    padding-bottom: 20px; 
 }
 .footer{
     
     width: 100%;
     bottom: 0;
-    padding-bottom: 10px;
-    background-color:navy;
+    padding-bottom: 20px;
+    background-color:rgb(4, 4, 17);
     color: #D9DBE1;
     text-align: center;
     font-weight: 700;
     
     
+}
+.footer img{
+    font-size: 100px;
 }
